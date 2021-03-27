@@ -1,0 +1,147 @@
+.jumbotron {
+  position: relative;
+  background-image: url(Imagen/FotoPizza.jpg);
+  width: 83%;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: bottom;
+  margin: 0 auto;
+  box-sizing: border-box;
+  border: 2px solid black;
+}
+#body {
+  background-image: url(Imagen/Jzddh2M.png);
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+ul {
+  position: relative;
+  list-style-type: none;
+  flex-direction: row;
+  top: 100px;
+  right: 1vw;
+  margin: 0 auto;
+  padding: 5px;
+  overflow: hidden;
+  background-color: rgb(192, 48, 48);
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: large;
+  width: 60vw;
+  border-radius: 25px 25px 25px;
+}
+
+li {
+  float: left;
+  padding-right: 6px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  color: orangered;
+  cursor: pointer;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  justify-content: center;
+  text-align: center;
+  padding-left: 25px;
+  padding-bottom: 15px;
+}
+#login {
+  height: 200px;
+  position: absolute;
+  top: -60px;
+  right: 0;
+  width: auto;
+}
+h6 {
+  color: aliceblue;
+  position: relative;
+  bottom: -500px;
+}
+#logo {
+  margin: 0 auto;
+  left: 42.5vw;
+  bottom: 36vw;
+  height: 25%;
+}
+#insta {
+  height: 75px;
+  float: right;
+  position: relative;
+  top: 504px;
+  left: -60px;
+}
+#face {
+  height: 94px;
+  float: right;
+  position: relative;
+  top: 500px;
+  left: -60px;
+  margin-right: 9px;
+}
+
+#order-img {
+  width: 250px;
+  position: absolute;
+
+  margin-top: 190px;
+
+  left: 1370px;
+}
+
+#num {
+  color: white;
+  font-size: x-large;
+  font-style: bold;
+  display: inline-flex;
+  margin-top: 25px;
+  position: relative;
+}
+#dia {
+  color: white;
+  font-size: x-large;
+  font-style: bold;
+  margin-left: 10px;
+}
+#phone-logo {
+  height: 150px;
+  position: relative;
+  top: -52px;
+}
+#clock {
+  height: 70px;
+  margin-bottom: 50px;
+}
+#dia-texto {
+  margin-bottom: 100px;
+  float: right;
+  padding-left: 10px;
+}
+#wpp {
+  width: 30vw;
+  margin: 0 auto;
+  position: relative;
+  top: 150px;
+  left: 330px;
+}
+.nav {
+  background-color: yellow;
+  width: 100%;
+  position: absolute;
+  bottom: 80px;
+}
+#img-peça {
+}
