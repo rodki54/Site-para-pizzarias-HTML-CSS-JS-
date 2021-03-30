@@ -17,7 +17,8 @@
 
   <body id="body" style="background-color: rgb(219, 223, 223);">
     <span id="num">
-      <img id="phone-logo" src="Imagen/phone-icon-small-12.jpg" alt="phone"><a href="(71)9999-9999">(71)9999-9999</a>
+      <img id="phone-logo" src="Imagen/phone-icon-small-12.jpg" alt="phone"><a
+        href="tel:(71)9999-9999">(71)9999-9999</a>
 
       <span id="dia">
         <img id="clock" src="Imagen/clock2.png" alt="clock">
@@ -26,7 +27,7 @@
 
 
     <ul id="center">
-      <li><a style="margin-right: 151px" ; href="page1.html">Peça agora</a></li>
+      <li><a style="margin-right: 151px" ; href="#inputGroupSelect01"></a></li>
       <li><a style="margin-right: 151px" ; href="#Cardapio">Cardapio</a></li>
       <li><a style="margin-right: 140px" ; href="#delivery">Promoções</a></li>
       <li><a style="margin-right: 180px" ; href="#Horario">Horarios</a></li>
@@ -35,10 +36,54 @@
     </ul> <img id="logo" src="Imagen/PizzaLogo.png" alt="logo"
       style="position:absolute; background-position-y: center;">
     <a href="Login.html"><img id="login" src="Imagen/login.png" alt="login"></a>
-    <img id="order-img" src="Imagen/peça-agora2.png" alt="order">
+    <a href="#inputGroupSelect01"><img id="order-img" src="Imagen/peça-agora2.png" alt="order"></a>
     <a href="#"><img id="wpp" src="Imagen/botaowhatsapp.png" alt="wpp"></a>
     <div class="nav"><img style="margin-left: 40px;" src="Imagen/peça-agora.png" alt="peça"><img
         style="margin-left: 450px;" src="Imagen/PecaOnline-Radikal.png" alt="peça2">
+    </div>
+    <div id="opçoes">
+      <img id="best" src="Imagen/Melhor-regiao.png" alt="melhor">
+      <div class="input-group-mb1" style="width: 300px;">
+        <div class="input-group-prepend" style="padding: 20px;">
+          <label class="input-group-text" for="inputGroupSelect01">Peça já</label>
+        </div>
+        <select class="custom-select" id="inputGroupSelect01">
+          <option selected>Escolha o sabor:</option>
+          <option value="1">Calabresa</option>
+          <option value="2">Pepperoni</option>
+          <option value="3">Marguerita</option>
+          <option value="3">3 Queijos</option>
+          <option value="3">Bacon</option>
+        </select>
+      </div>
+      <div class="input-group-mb2" style="width: 320px; padding: 5px;">
+        <div class="input-group-prepend" style="padding: 15px;">
+          <label class="input-group-text" for="inputGroupSelect02">Adicionais:</label>
+        </div>
+
+        <select class="custom-select" id="inputGroupSelect02">
+          <option selected>Escolha os adicionais:</option>
+          <option value="1">Dobro de queijo</option>
+          <option value="2">Dobro Recheio</option>
+          <option value="3">Refrigerente 1L</option>
+          <option value="4">Suco uva integral</option>
+          <option value="5">Chá gelado(Pessego)</option>
+        </select>
+      </div>
+      <div class="input-group-mb3" style="width: 300px; padding: 7px;">
+        <div class="input-group-prepend" style="padding: 15px;">
+          <label class="input-group-text" for="inputGroupSelect02">Tamanho da Pizza</label>
+        </div>
+
+        <select class="custom-select" id="inputGroupSelect02">
+          <option selected>Escolha já</option>
+          <option value="1">Media</option>
+          <option value="2">Grande</option>
+          <option value="3">Supreme Size</option>
+
+        </select>
+      </div>
+      <img id="option" src="Imagen/Pizza parte inferior.png" alt="option">
     </div>
     <footer>
       <a href="#"><img id="insta" src="Imagen/Instagram-PNG.png" alt="insta"></a>
